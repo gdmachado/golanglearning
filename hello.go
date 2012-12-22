@@ -2,13 +2,10 @@ package main
 
 import "fmt"
 
-func swap(x, y string) (string, string) {
-    return y, x
+type Vertex struct {
+    X, Y int
 }
 
 func main() {
-    a, b := swap("hello", "world")
-    fmt.Println(a, b)
-    fmt.Scanner.Scan(string a)
+    fmt.Println(Vertex{1, 2})
 }
-
