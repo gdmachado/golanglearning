@@ -17,7 +17,7 @@ func Sqrt(x float64) float64 {
 }
 
 func main() {
-    for i := 0; i < argv[0]; i++ {
+    for i := 0; i < 20; i++ {
         fmt.Printf("Sqrt(%v): %v %v\n", i, Sqrt(float64(i)), math.Sqrt(float64(i)))
     }
 }
